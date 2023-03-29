@@ -1,0 +1,234 @@
+*{
+    font-family:sans-serif,Arial ;
+}
+
+body{
+    background-image: radial-gradient(circle at 67% 83%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, rgba(245,245,245, 0.05) 0%, rgba(245,245,245, 0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(207deg, rgb(22,141,207),rgb(7,120,215));
+}
+
+.box1{
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+    border: 40px;
+    border: 2px solid #F8F9D2;
+    padding-top: 5%;
+    
+    
+}
+
+.box1 ul {
+    display:flex ;
+    justify-content: right;
+   
+
+} 
+
+.box1 ul li{
+    list-style: none;
+    margin-left: 2%;
+    margin-bottom: 5%;
+
+}
+
+.box1 a{
+        display: block; width: 100%;height: 100%;
+        font-weight: bold;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F8F9D2;
+        padding: 0 10px;
+
+        
+        
+}
+
+
+.box1 li a:hover{
+    color:#003049;
+}
+@media only screen{
+    #Logo{
+        height: 155px;
+        border-radius: 50%;
+        background-color: #f2e9e4;
+        justify-content: left;
+        margin-top: 1.35%;
+        position:relative;
+    } 
+}
+@media only screen {
+    #screenshot{
+        width: 153px;
+        height: auto;
+        margin: 0 0 0 15px;
+        float: right;
+        padding-right: 2%;
+       
+    
+       }
+    }
+
+@media only screen{
+.box2{
+    margin-top: 1%;
+    width: 100%;
+    border: 2px solid #F8F9D2;}
+}
+
+.box2 h1{
+   font-size: 40px;
+   margin-left: 1%;
+   color: #F8F9D2
+}
+.box2 h5{
+    margin-left: 1%;
+    color: #F8F9D2 
+}
+
+.box2 span{
+    color: #003049
+}
+
+.box2 p{
+    line-height: 19px;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 4%;
+    color:#f2e9e4
+
+}
+.box2 h3{
+color: #003049;
+}
+
+box2 table{
+    border-collapse: collapse;
+    width: 80%;
+    border:1px solid #c0cee4f2;
+    margin: auto;
+    margin-bottom: 1%;
+    color: #003049;
+    
+}
+.box2 table td{
+    border: 1px solid #2FEBDB;
+    line-height: 19px; 
+    
+}
+
+.box2 table .headings{
+    text-align: center;
+    font-weight: bold;
+
+}
+.box2 #professionalicons{
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+}
+#professionalicons li{
+
+    margin: auto;
+    list-style: none;
+    margin-bottom: 1%; 
+}
+#dataAnalytics{
+    width: 100%;
+    height: auto;
+}
+#questionMark{
+    width: 100%;
+    height: auto;
+}
+#cyber{
+    width: 100%;
+    height: auto;
+}
+
+#box3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+@media only screen {
+#personalPhoto{
+    
+    width: 115px;
+    height: auto;
+    margin: 0 0 0 15px;
+    float: right;
+    border-radius: 15%;
+    
+
+   }
+}
+
+#box4{
+    width: 100%;
+    border: 2px solid #F8F9D2; 
+    position: relative;
+    margin-top: 15px; 
+    
+
+}
+
+#box4 h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #003049;
+    text-align: center;
+ 
+ 
+ }
+
+#box4 a:hover{
+    background-color: #f2e9e4;
+
+}
+ul.links{
+ display: flex;
+ justify-content: center;
+}
+.links li {
+    margin: auto;
+    list-style: none;
+    margin-bottom: 1%;
+ 
+}
+
+#connectionlinks a{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box2 .experience{
+    margin-right: 10%;
+    color:#003049;
+}
+
+ #commentsTable{
+    border-collapse:collapse;
+    width: 90%;
+    color: #003049;
+    margin-left: auto;
+    margin-right: auto;
+
+  
+}
+ #commentsTable td, #commentsTable th{
+       border: 1px solid #ddd;
+}
+ #commentsTable tr:hover{background-color: #2FEBDB;}
+ #commentsTable th{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    
+
+
+ }
